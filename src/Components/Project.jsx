@@ -41,11 +41,11 @@ const prevProject = () => {
 
       <div className=' flex justify-end items-center mb-8'>
         <button onClick={prevProject} className='p-3 bg-gray-200 rounded mr-2 w-1/12 '><img src={leftArrow} alt="previous" /></button>
-        <button onClick={nextProject} className=' bg-gray-200 rounded w-1/12 mr-2'><img src={rightArrow} alt="next" /></button>
+        <button onClick={nextProject} className='p-3 bg-gray-200 rounded w-1/12 mr-2'><img src={rightArrow} alt="next" /></button>
       </div>
 
       {/*...project slider container */}
-      <div className='overflow-hidden '  id='Projects'>
+      <div className='overflow-hidden ' id='Projects'>
         <div className='flex gap-8 transition-transform duration-500 ease-in-out'
         style={{transform: `translateX(-${(currentIndex * 100)/ cardsToShow}%)`}}>{/*.This is the project slider and the code interprets:translate in the negative -X and show 25% of the cards thats what the calaculation does.*/}
           {projectsData.map((project, index) =>(

@@ -24,7 +24,7 @@ const Navbar = () => {
     
       <div className='absolute top-0 left-0 w-full z-10'>
       <div className='container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparents'>
-        <img src="background.png" alt="logo" />
+        <div className='text-gray-100 font-bold '><p>presh <span className='text-yellow-500'>dev</span></p></div>
         <ul className='hidden md:flex gap-7 text-white sticky '>
           <a href="#Header" className=' cursor-pointer hover:text-gray-400'>Home</a>
           <a href="#About" className=' cursor-pointer hover:text-gray-400'>About </a>
@@ -41,9 +41,9 @@ const Navbar = () => {
     <FontAwesomeIcon onClick={()=> setShowMobileMenu(false)} icon={faXmark} className="md:hidden text-2xl cursor-pointer" />
   </div>
 <ul className='flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium  transition-all'>
-      <a  onClick={()=> setShowMobileMenu(false)}  href="#" className='px-4 py-2 rounded-full inline-block hover:text-gray-400'>Home</a>
-      <a onClick={()=> setShowMobileMenu(false)}  href="#" className='px-4 py-2 rounded-full inline-block hover:text-gray-400'>About</a>
-      <a onClick={()=> setShowMobileMenu(false)} href="#" className='px-4 py-2 rounded-full inline-block hover:text-gray-400'>Testimonials</a>
+      <a  onClick={()=> setShowMobileMenu(false)}  href="#" className=' text-black px-4 py-2 rounded-full inline-block hover:text-black-300'>Home</a>
+      <a onClick={()=> setShowMobileMenu(false)}  href="#" className=' text-black px-4 py-2 rounded-full inline-block hover:text-gray-400'>About</a>
+      <a onClick={()=> setShowMobileMenu(false)} href="#" className=' text-black px-4 py-2 rounded-full inline-block hover:text-gray-400'>Testimonials</a>
      </ul>
 </div>
     </div>
