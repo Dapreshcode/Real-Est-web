@@ -74,27 +74,25 @@ export const testimonialsData = [
 
     {
         name: 'Bete Blessing Dormene',
-        title: 'UI/UX Designer, Freelance',
         image: testImg1,
         alt:  'potrait of Bete Blessing Dormene',
         rating: 5,
         Testimonials: "I had an amazing experience working with this real estate company. From the moment I contacted them, they were responsive and attentive to my needs. They took the time to understand my preferences and budget, and they presented me with a range of options that fit perfectly. Their team was professional, knowledgeable, and went above and beyond to ensure a smooth transaction. I couldn't be happier with my new home!"
     },
     {
-        name: 'Barry kinguykfkfmjg',
-        title: 'CEO, Barrys Foods Ltd',
+        name: 'Mary John',
         image: testImg2,
         alt:  'potrait of Bete Blessing Dormene',
         rating: 5,
         Testimonials: "I had an amazing experience working with this real estate company. From the moment I contacted them, they were responsive and attentive to my needs. They took the time to understand my preferences and budget, and they presented me with a range of options that fit perfectly. Their team was professional, knowledgeable, and went above and beyond to ensure a smooth transaction. I couldn't be happier with my new home!"
     },
     {
-        name: 'Bete Blessing Dormene',
-        title: 'Engineer, NIG Ltd',
+        name: 'John Doe',
         image: testImg3,
         alt:  'potrait of Bete Blessing Dormene',
-        rating: 5,
-        Testimonials: "I had an amazing experience working with this real estate company. From the moment I contacted them, they were responsive and attentive to my needs. They took the time to understand my preferences and budget, and they presented me with a range of options that fit perfectly. Their team was professional, knowledgeable, and went above and beyond to ensure a smooth transaction. I couldn't be happier with my new home!"
+        rating: 4,
+        Testimonials: "Working with this team was an excellent experience from start to finish. They listened carefully to what I wanted, guided me through every step of the process, and helped me find a property that truly fits my needs. Their professionalism, transparency, and attention to detail made the entire journey smooth and stress-free. I highly recommend them to anyone looking for a reliable real estate partner."
+
     },
 ]
 
